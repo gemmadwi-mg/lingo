@@ -27,7 +27,7 @@ const main = async () => {
     const courses = await db
       .insert(schema.courses)
       .values([
-        { title: "Spanish", imageSrc: "/es.svg" },
+        { title: "Jawa", imageSrc: "/es.svg" },
       ])
       .returning();
 
@@ -127,21 +127,21 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el hombre",
+                  text: "wong lanang",
                   imageSrc: "/man.svg",
                   audioSrc: "/es_man.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
+                  text: "wong wedok",
                   imageSrc: "/woman.svg",
                   audioSrc: "/es_woman.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
+                  text: "cah lanang",
                   imageSrc: "/boy.svg",
                   audioSrc: "/es_boy.mp3",
                 },
@@ -153,21 +153,21 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "la mujer",
+                  text: "wong wedok",
                   imageSrc: "/woman.svg",
                   audioSrc: "/es_woman.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
+                  text: "cah lanang",
                   imageSrc: "/boy.svg",
                   audioSrc: "/es_boy.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el hombre",
+                  text: "wong lanang",
                   imageSrc: "/man.svg",
                   audioSrc: "/es_man.mp3",
                 },
@@ -179,21 +179,21 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
+                  text: "wong wedok",
                   imageSrc: "/woman.svg",
                   audioSrc: "/es_woman.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el hombre",
+                  text: "wong lanang",
                   imageSrc: "/man.svg",
                   audioSrc: "/es_man.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el chico",
+                  text: "cah lanang",
                   imageSrc: "/boy.svg",
                   audioSrc: "/es_boy.mp3",
                 },
@@ -205,19 +205,19 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
+                  text: "wong wedok",
                   audioSrc: "/es_woman.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el hombre",
+                  text: "wong lanang",
                   audioSrc: "/es_man.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
+                  text: "cah lanang",
                   audioSrc: "/es_boy.mp3",
                 },
               ]);
@@ -228,21 +228,21 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el hombre",
+                  text: "wong lanang",
                   imageSrc: "/man.svg",
                   audioSrc: "/es_man.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
+                  text: "wong wedok",
                   imageSrc: "/woman.svg",
                   audioSrc: "/es_woman.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el zombie",
+                  text: "zombie",
                   imageSrc: "/zombie.svg",
                   audioSrc: "/es_zombie.mp3",
                 },
@@ -254,21 +254,21 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el robot",
+                  text: "robot kasebut",
                   imageSrc: "/robot.svg",
                   audioSrc: "/es_robot.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el zombie",
+                  text: "zombie",
                   imageSrc: "/zombie.svg",
                   audioSrc: "/es_zombie.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
+                  text: "cah lanang",
                   imageSrc: "/boy.svg",
                   audioSrc: "/es_boy.mp3",
                 },
@@ -280,21 +280,21 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "la nina",
+                  text: "cah wadon",
                   imageSrc: "/girl.svg",
                   audioSrc: "/es_girl.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el zombie",
+                  text: "zombie",
                   imageSrc: "/zombie.svg",
                   audioSrc: "/es_zombie.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el hombre",
+                  text: "wong lanang",
                   imageSrc: "/man.svg",
                   audioSrc: "/es_man.mp3",
                 },
@@ -306,19 +306,19 @@ const main = async () => {
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "la mujer",
+                  text: "wong wedok",
                   audioSrc: "/es_woman.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: true,
-                  text: "el zombie",
+                  text: "zombie",
                   audioSrc: "/es_zombie.mp3",
                 },
                 {
                   challengeId: challenge.id,
                   correct: false,
-                  text: "el chico",
+                  text: "cah lanang",
                   audioSrc: "/es_boy.mp3",
                 },
               ]);
